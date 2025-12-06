@@ -33,5 +33,5 @@ nemo.swim(); // Nemo swimming in the water
 
 
 /********************************* Scenario 5 *********************************/
-// const swim = nemo.swim;
-// swim(); // ?
+const swim = nemo.swim;
+swim(); // TypeError - method detached → this = undefined in Node
