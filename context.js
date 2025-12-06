@@ -29,7 +29,7 @@ eat(); // undefined eats fish food
 
 
 /********************************* Scenario 4 *********************************/
-// nemo.swim(); // ?
+nemo.swim(); // Nemo swimming in the water
 
 
 /********************************* Scenario 5 *********************************/
