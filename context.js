@@ -19,8 +19,8 @@ eat(); // undefined eats fish food
 
 
 /********************************* Scenario 2 *********************************/
-// nemo.eat = eat;
-// nemo.eat(); // Nemo eats fish food
+nemo.eat = eat;
+nemo.eat(); // Nemo eats fish food
 
 
 /********************************* Scenario 3 *********************************/
